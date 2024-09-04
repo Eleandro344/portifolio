@@ -1,0 +1,112 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+{% load static %}
+
+{% include 'partials/menu.html' %}
+<!--================ Start Home Banner Area =================-->
+<section class="home_banner_area">
+    <div class="banner_inner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="banner_content">
+                        <h2 class="text-uppercase">Eu sou o Eleandro!</h2>
+                        <h5 class="text-uppercase">Programador e Desenvolvedor</h5>
+                        <div class="d-flex align-items-center">
+                            <a class="primary_btn" href="https://www.linkedin.com/in/eleandro-martins-a466ba265?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><span>Me Contrate!</span></a>
+                            <a class="primary_btn tr-bg" href="https://drive.google.com/file/d/1d2IEpg8hueiaRdMFg8VC4HN54OixFuA6/view?usp=sharing"><span>Veja meu CV</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="home_right_img">
+                        <img class="" src="{% static 'img/banner/home-right.png' %}" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--================ End Home Banner Area =================-->
+
+<!--================ Start About Us Area =================-->
+<section class="about_area section_gap">
+    <div class="container">
+        <div class="row justify-content-start align-items-center">
+            <div class="col-lg-5">
+                <div class="about_img">
+                    <img class="" src="{% static 'img/about-us.png' %}" alt="">
+                </div>
+            </div>
+
+            <div class="offset-lg-1 col-lg-5">
+                <div class="main_title text-left">
+                    <h2>Deixe <br>
+                        me apresentar!<br>
+                    </h2>
+                    <p>
+                        Eu sou Eleandro.
+
+                    
+                    </p>
+                    <p>
+                        Desenvolvedor e Programador Fullstack, com expertise em Python, SQL e JavaScript.
+                         Bacharel em Ciências Contábeis e Aplicadas na universidade Unissinos. Combino minhas habilidades técnicas com um sólido conhecimento em contabilidade, oferecendo soluções completas e eficazes para o desenvolvimento de software e gestão de dados.
+                    </p>
+                    <a class="primary_btn" href="https://drive.google.com/file/d/1d2IEpg8hueiaRdMFg8VC4HN54OixFuA6/view?usp=sharing"><span>Baixar meu CV</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--================ End About Us Area =================-->
+
+
+<!--================ Start Features Area =================-->
+<section class="features_area">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+                <div class="main_title">
+                    <h2>Serviços Oferecidos</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row feature_inner">
+            <div class="col-lg-3 col-md-6">
+                <div class="feature_item">
+                    <img src="{% static 'img/services/s1.png' %}" alt="">
+                    <h4>Sistemas internos </h4>
+                    <p>Esses sistemas são fundamentais para a eficiência operacional, integrando diferentes funções da empresa, desde o gerenciamento de recursos humanos até a automação de processos financeiros</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="feature_item">
+                    <img src="{% static 'img/services/s2.png' %}" alt="">
+                    <h4>Auditoria Financeira</h4>
+                    <p>Avaliar a exatidão das demonstrações financeiras de uma empresa, garantindo que elas reflitam de maneira verdadeira e justa a posição financeira da organização</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="feature_item">
+                    <img src="{% static 'img/services/s3.png' %}" alt="">
+                    <h4>Automações</h4>
+                    <p>As automações são amplamente aplicadas em diversos setores, desde a indústria até os escritórios, com o objetivo de aumentar a eficiência, reduzir erros, melhorar a produtividade e liberar os colaboradores para tarefas mais estratégicas e criativas</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="feature_item">
+                    <img src="{% static 'img/services/s4.png' %}" alt="">
+                    <h4>seo optimize</h4>
+                    <p>O objetivo principal do SEO é aumentar a quantidade e a qualidade do tráfego orgânico para o site, ou seja, o tráfego que não vem de anúncios pagos</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--================ End Features Area =================-->
+{% include 'partials/footer.html' %}
+{% endblock %}
+
