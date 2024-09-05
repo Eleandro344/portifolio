@@ -25,7 +25,7 @@ SECRET_KEY = 'qq#qcp9yf=%^q6a@ofhz@+pqs59m14%5)%k!h1r%l(0xo#up85'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['portifolioeleandro2-hazel.vercel.app', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['.vercel.app']
 
 
 # Application definition
