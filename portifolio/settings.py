@@ -26,6 +26,7 @@ SECRET_KEY = 'qq#qcp9yf=%^q6a@ofhz@+pqs59m14%5)%k!h1r%l(0xo#up85'
 DEBUG = True
 
 ALLOWED_HOSTS = ['.vercel.app']
+# ALLOWED_HOSTS = []
 
 
 # Application definition
