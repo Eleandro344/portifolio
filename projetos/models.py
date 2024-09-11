@@ -10,6 +10,7 @@ class Projeto(models.Model):
     imagem = models.ImageField(upload_to='portifolio/static/img/', null=True, blank=True)
     nome_projeto = models.CharField(max_length=200)
     descricao_projeto = models.TextField()
+    link_projeto = models.CharField(max_length=100, default='http://exemplo.com')
     cliente = models.CharField(max_length=100)
     data_conclusao = models.DateTimeField(default=datetime.now, blank=True)
     website = models.CharField(max_length=200)

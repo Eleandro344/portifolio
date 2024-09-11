@@ -2454,6 +2454,24 @@ h6 {
       .about_area .about_img {
         display: none; } }
 
+
+        .about_area .about_img2 {
+          position: relative;
+          right: 350px; }
+          @media (max-width: 1480px) {
+            .about_area .about_img2 {
+              right: 0; }
+              .about_area .about_img2 img {
+                max-width: 130%;
+                margin-top: -200px;
+                margin-left: -50px;
+                /* border-radius: 50%;  */
+                height: auto; } }
+          @media (max-width: 950px) {
+            .about_area .about_img2 {
+              display: none; } }
+
+        
 /* End About Us Area css
 ============================================================================================ */
 /* Start Barand Area css
