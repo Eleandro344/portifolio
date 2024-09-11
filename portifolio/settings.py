@@ -19,8 +19,8 @@ SECRET_KEY = 'qq#qcp9yf=%^q6a@ofhz@+pqs59m14%5)%k!h1r%l(0xo#up85'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.vercel.app']
-# ALLOWED_HOSTS = []
+# ALLOWED_HOSTS = ['.vercel.app']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -66,7 +66,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'portifolio.wsgi.application'
 
-# DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 
