@@ -1,7 +1,9 @@
 asgiref==3.8.1
 Django==3.2.14
-mysql-connector-python==9.0.0
+mysql-connector-python
+mysqlclient
 pillow==10.4.0
+psycopg2==2.9.9
 python-dotenv==1.0.1
 pytz==2024.2
 sqlparse==0.5.1
