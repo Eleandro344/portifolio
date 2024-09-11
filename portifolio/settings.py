@@ -66,7 +66,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'portifolio.wsgi.application'
 
-DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+# DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 
